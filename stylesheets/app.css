@@ -396,20 +396,24 @@ th {
 
 @font-face {
   font-family: "ClearSans";
-  src: url('../fonts/ClearSans-Regular.eot?1375371088');
-  src: url('../fonts/ClearSans-Regular.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/ClearSans-Regular.woff?1375371088') format('woff'), url('../fonts/ClearSans-Regular.svg?1375371088') format('svg'); }
+  src: url('../fonts/clearsans/ClearSans-Regular.eot?1375371088');
+  src: url('../fonts/clearsans/ClearSans-Regular.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/clearsans/ClearSans-Regular.woff?1375371088') format('woff'), url('../fonts/clearsans/ClearSans-Regular.svg?1375371088') format('svg'); }
 @font-face {
   font-family: "ClearSans-Light";
-  src: url('../fonts/ClearSans-Light.eot?1375371088');
-  src: url('../fonts/ClearSans-Light.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/ClearSans-Light.woff?1375371088') format('woff'), url('../fonts/ClearSans-Light.svg?1375371088') format('svg'); }
+  src: url('../fonts/clearsans/ClearSans-Light.eot?1375371088');
+  src: url('../fonts/clearsans/ClearSans-Light.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/clearsans/ClearSans-Light.woff?1375371088') format('woff'), url('../fonts/clearsans/ClearSans-Light.svg?1375371088') format('svg'); }
 @font-face {
   font-family: "ClearSans-Bold";
-  src: url('../fonts/ClearSans-Bold.eot?1375371088');
-  src: url('../fonts/ClearSans-Bold.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/ClearSans-Bold.woff?1375371088') format('woff'), url('../fonts/ClearSans-Bold.svg?1375371088') format('svg'); }
+  src: url('../fonts/clearsans/ClearSans-Bold.eot?1375371088');
+  src: url('../fonts/clearsans/ClearSans-Bold.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/clearsans/ClearSans-Bold.woff?1375371088') format('woff'), url('../fonts/clearsans/ClearSans-Bold.svg?1375371088') format('svg'); }
 @font-face {
   font-family: "ClearSans-Thin";
-  src: url('../fonts/ClearSans-Light.eot?1375371088');
-  src: url('../fonts/ClearSans-Light.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/ClearSans-Light.woff?1375371088') format('woff'), url('../fonts/ClearSans-Light.svg?1375371088') format('svg'); }
+  src: url('../fonts/clearsans/ClearSans-Thin.eot?1375371088');
+  src: url('../fonts/clearsans/ClearSans-Thin.eot?&1375371088#iefix') format('embedded-opentype'), url('../fonts/clearsans/ClearSans-Thin.woff?1375371088') format('woff'), url('../fonts/clearsans/ClearSans-Thin.svg?1375371088') format('svg'); }
+@font-face {
+  font-family: "Brig";
+  src: url('../fonts/brig/brig.eot?1408078494');
+  src: url('../fonts/brig/brig.eot?&1408078494#iefix') format('embedded-opentype'), url('../fonts/brig/brig.woff?1408078494') format('woff'), url('../fonts/brig/brig.svg?1408078494') format('svg'); }
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.3.3/"; }
@@ -2792,7 +2796,7 @@ html * {
 /* line 20, ../scss/modules/cd-nav/_cd-nav.scss */
 body {
   font-size: 100%;
-  font-family: "ubuntu", sans-serif;
+  font-family: "Clear Sans", sans-serif;
   color: #3c4248;
   background-color: #ecf0f1; }
 
@@ -2843,42 +2847,8 @@ Main components
     /* line 81, ../scss/modules/cd-nav/_cd-nav.scss */
     .cd-section:nth-of-type(even) p {
       color: #9ca6af; }
-  /* line 86, ../scss/modules/cd-nav/_cd-nav.scss */
-  .cd-section h1, .cd-section p {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    bottom: auto;
-    right: auto;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    max-width: 768px;
-    text-align: center; }
-  /* line 94, ../scss/modules/cd-nav/_cd-nav.scss */
-  .cd-section h1 {
-    color: #ecf0f1;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-size: 1.25rem; }
-  /* line 101, ../scss/modules/cd-nav/_cd-nav.scss */
-  .cd-section p {
-    line-height: 1.6; }
-  @media only screen and (min-width: 768px) {
-    /* line 106, ../scss/modules/cd-nav/_cd-nav.scss */
-    .cd-section h1 {
-      font-size: 30px;
-      font-size: 1.875rem; }
-    /* line 110, ../scss/modules/cd-nav/_cd-nav.scss */
-    .cd-section p {
-      font-size: 20px;
-      font-size: 1.25rem;
-      line-height: 2; } }
 
-/* line 117, ../scss/modules/cd-nav/_cd-nav.scss */
+/* line 119, ../scss/modules/cd-nav/_cd-nav.scss */
 .cd-scroll-down {
   position: absolute;
   left: 50%;
@@ -2890,14 +2860,14 @@ Main components
   bottom: 20px;
   width: 38px;
   height: 44px;
-  background: url("../img/cd-arrow-bottom.svg") no-repeat center center; }
+  background: url("../../../img/cd-arrow-bottom.svg") no-repeat center center; }
 
 /* No Touch devices */
-/* line 128, ../scss/modules/cd-nav/_cd-nav.scss */
+/* line 130, ../scss/modules/cd-nav/_cd-nav.scss */
 .cd-nav-trigger {
   display: none; }
 
-/* line 132, ../scss/modules/cd-nav/_cd-nav.scss */
+/* line 134, ../scss/modules/cd-nav/_cd-nav.scss */
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -2908,10 +2878,10 @@ Main components
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 1; }
-  /* line 138, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 140, ../scss/modules/cd-nav/_cd-nav.scss */
   .no-touch #cd-vertical-nav li {
     text-align: right; }
-  /* line 142, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 144, ../scss/modules/cd-nav/_cd-nav.scss */
   .no-touch #cd-vertical-nav a {
     display: inline-block;
     /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
@@ -2925,7 +2895,7 @@ Main components
     /* line 169, ../bower_components/foundation/scss/foundation/components/_global.scss */
     .no-touch #cd-vertical-nav a:after {
       clear: both; }
-    /* line 149, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 151, ../scss/modules/cd-nav/_cd-nav.scss */
     .no-touch #cd-vertical-nav a span {
       float: right;
       display: inline-block;
@@ -2933,19 +2903,19 @@ Main components
       -ms-transform: scale(0.6);
       -webkit-transform: scale(0.6);
       transform: scale(0.6); }
-    /* line 155, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 157, ../scss/modules/cd-nav/_cd-nav.scss */
     .no-touch #cd-vertical-nav a:hover span {
       -moz-transform: scale(1);
       -ms-transform: scale(1);
       -webkit-transform: scale(1);
       transform: scale(1); }
-    /* line 159, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 161, ../scss/modules/cd-nav/_cd-nav.scss */
     .no-touch #cd-vertical-nav a:hover .cd-label {
       opacity: 1; }
-    /* line 163, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 165, ../scss/modules/cd-nav/_cd-nav.scss */
     .no-touch #cd-vertical-nav a.is-selected .cd-dot {
       background-color: #ecf0f1; }
-  /* line 168, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 170, ../scss/modules/cd-nav/_cd-nav.scss */
   .no-touch #cd-vertical-nav .cd-dot {
     position: relative;
     /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
@@ -2961,7 +2931,7 @@ Main components
     -ms-transform-origin: 50% 50% 50%;
     -webkit-transform-origin: 50% 50% 50%;
     transform-origin: 50% 50% 50%; }
-  /* line 182, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 184, ../scss/modules/cd-nav/_cd-nav.scss */
   .no-touch #cd-vertical-nav .cd-label {
     position: relative;
     margin-right: 10px;
@@ -2979,7 +2949,7 @@ Main components
     transform-origin: 100% 50% 50%; }
 
 /* Touch devices */
-/* line 199, ../scss/modules/cd-nav/_cd-nav.scss */
+/* line 201, ../scss/modules/cd-nav/_cd-nav.scss */
 .touch .cd-nav-trigger {
   display: block;
   z-index: 2;
@@ -2990,7 +2960,7 @@ Main components
   width: 44px;
   border-radius: 0.25em;
   background: rgba(236, 240, 241, 0.9); }
-  /* line 210, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 212, ../scss/modules/cd-nav/_cd-nav.scss */
   .touch .cd-nav-trigger span {
     position: absolute;
     height: 4px;
@@ -3005,7 +2975,7 @@ Main components
     -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
-    /* line 218, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 220, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
       content: '';
       height: 100%;
@@ -3014,14 +2984,14 @@ Main components
       left: 0;
       background-color: inherit;
       border-radius: inherit; }
-    /* line 228, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 230, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch .cd-nav-trigger span::before {
       top: -9px; }
-    /* line 232, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 234, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch .cd-nav-trigger span::after {
       bottom: -9px; }
 
-/* line 238, ../scss/modules/cd-nav/_cd-nav.scss */
+/* line 240, ../scss/modules/cd-nav/_cd-nav.scss */
 .touch #cd-vertical-nav {
   position: fixed;
   z-index: 1;
@@ -3050,55 +3020,104 @@ Main components
   transition-duration: 0.2s;
   border-radius: 0.25em;
   background-color: rgba(236, 240, 241, 0.9); }
-  /* line 255, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 257, ../scss/modules/cd-nav/_cd-nav.scss */
   .touch #cd-vertical-nav a {
     display: block;
     padding: 1em;
     border-bottom: 1px solid rgba(60, 66, 72, 0.1); }
-    /* line 260, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 262, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch #cd-vertical-nav a span:first-child {
       display: none; }
-    /* line 264, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 266, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch #cd-vertical-nav a.is-selected span:last-child {
       color: coral; }
-  /* line 269, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 271, ../scss/modules/cd-nav/_cd-nav.scss */
   .touch #cd-vertical-nav.open {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1); }
-  /* line 273, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 275, ../scss/modules/cd-nav/_cd-nav.scss */
   .touch #cd-vertical-nav.open + .cd-nav-trigger {
     background-color: transparent; }
-    /* line 276, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 278, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch #cd-vertical-nav.open + .cd-nav-trigger span {
       background-color: rgba(60, 66, 72, 0); }
-    /* line 280, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 282, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
       background-color: #3c4248;
       height: 3px;
       width: 20px;
       border-radius: 0;
       left: -8px; }
-    /* line 288, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 290, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
       -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
       top: 1px; }
-    /* line 293, ../scss/modules/cd-nav/_cd-nav.scss */
+    /* line 295, ../scss/modules/cd-nav/_cd-nav.scss */
     .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
       -moz-transform: rotate(135deg);
       -ms-transform: rotate(135deg);
       -webkit-transform: rotate(135deg);
       transform: rotate(135deg);
       bottom: 0; }
-  /* line 299, ../scss/modules/cd-nav/_cd-nav.scss */
+  /* line 301, ../scss/modules/cd-nav/_cd-nav.scss */
   .touch #cd-vertical-nav li:last-child a {
     border-bottom: none; }
 
-@media only screen and (min-width: 768px) {
-  /* line 305, ../scss/modules/cd-nav/_cd-nav.scss */
+@media only screen and (min-width: 600px) {
+  /* line 307, ../scss/modules/cd-nav/_cd-nav.scss */
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px; } }
+/* line 16, ../scss/modules/cd-nav/_layout.scss */
+.item {
+  flex: 1 auto; }
+
+/* line 1, ../scss/_custom.scss */
+.section-container {
+  display: flex;
+  min-height: 100%;
+  flex-flow: row wrap;
+  background: white;
+  text-align: center;
+  justify-content: center;
+  align-content: center; }
+
+/* line 11, ../scss/_custom.scss */
+.section-container > * {
+  flex: 1 100%;
+  padding: 1rem; }
+
+/* line 16, ../scss/_custom.scss */
+.section-header {
+  color: #ecf0f1;
+  width: 100%; }
+
+/* line 21, ../scss/_custom.scss */
+.three-columns {
+  background: white;
+  display: flex;
+  padding: 1rem;
+  flex-flow: nowrap; }
+
+/* line 28, ../scss/_custom.scss */
+.item {
+  padding: 1rem; }
+  /* line 30, ../scss/_custom.scss */
+  .item p {
+    text-align: left; }
+
+/* line 37, ../scss/_custom.scss */
+.item1 {
+  background: #ecf0f1; }
+
+/* line 38, ../scss/_custom.scss */
+.item2 {
+  background: #3c4248; }
+
+/* line 39, ../scss/_custom.scss */
+.item3 {
+  background: #ecf0f1; }

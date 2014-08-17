@@ -1,0 +1,41 @@
+.section-container {
+	display: flex;
+	min-height: 100%;
+	flex-flow: row wrap;
+	background: white;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.section-container > *  { 
+	flex: 1 100%; 
+	padding: 1rem;
+}
+
+.section-header {
+	color: $porcelain;
+	width: 100%;
+}
+
+.three-columns {
+	background: white;
+	display: flex;
+	padding: 1rem;
+	flex-flow: nowrap;
+}
+
+.item {
+	padding: 1rem;
+	p { text-align: left;}
+}
+
+// .item p {
+// 	text-align: left;
+// }
+
+.item1 { 	background: $porcelain; }
+.item2 {	background: $mako; }
+.item3 { 	background: $porcelain;}
+
+

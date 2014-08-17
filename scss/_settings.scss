@@ -23,10 +23,11 @@
   }
 }
 
-@include font-face("ClearSans", font-files("ClearSans-Regular.woff", "ClearSans-Regular.svg"), "ClearSans-Regular.eot");
-@include font-face("ClearSans-Light", font-files("ClearSans-Light.woff", "ClearSans-Light.svg"), "ClearSans-Light.eot");
-@include font-face("ClearSans-Bold", font-files("ClearSans-Bold.woff", "ClearSans-Bold.svg"), "ClearSans-Bold.eot");
-@include font-face("ClearSans-Thin", font-files("ClearSans-Light.woff", "ClearSans-Light.svg"), "ClearSans-Light.eot");
+@include font-face('ClearSans', font-files("clearsans/ClearSans-Regular.woff", "clearsans/ClearSans-Regular.svg"), "clearsans/ClearSans-Regular.eot");
+@include font-face('ClearSans-Light', font-files("clearsans/ClearSans-Light.woff", "clearsans/ClearSans-Light.svg"), "clearsans/ClearSans-Light.eot");
+@include font-face('ClearSans-Bold', font-files("clearsans/ClearSans-Bold.woff", "clearsans/ClearSans-Bold.svg"), "clearsans/ClearSans-Bold.eot");
+@include font-face('ClearSans-Thin', font-files("clearsans/ClearSans-Thin.woff", "clearsans/ClearSans-Thin.svg"), "clearsans/ClearSans-Thin.eot");
+@include font-face('Brig', font-files("brig/brig.woff", "brig/brig.svg"), "brig/brig.eot");
 
 // This is the default html and body font-size for the base rem value.
 // $rem-base: 16px;
@@ -177,7 +178,7 @@ $shiny-edge-active-color: rgba(#000, .2);
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
-$header-font-family: "ClearSans";
+$header-font-family: 'ClearSans';
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
